@@ -1,0 +1,16 @@
+.homeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeTitle {
+  font-weight: 800;
+  text-shadow: 0px 1px 2px rgb(58, 57, 57);
+}
+
+.homeText {
+  font-weight: 500;
+  color: rgb(43, 41, 41);
+  text-align: justify;
+}

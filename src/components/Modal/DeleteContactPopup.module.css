@@ -1,0 +1,10 @@
+.btnModal {
+  transition: color 250ms ease, background-color 250ms ease;
+}
+
+.btnModal:active,
+.btnModal:focus,
+.btnModal:hover {
+  background-color: brown;
+  color: aliceblue;
+}

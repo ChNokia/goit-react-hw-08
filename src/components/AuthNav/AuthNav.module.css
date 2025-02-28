@@ -1,0 +1,15 @@
+.authLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  transition: scale 250ms ease-in;
+}
+
+.authLink:hover {
+  scale: 1.1;
+}
+
+.active {
+  color: red;
+}

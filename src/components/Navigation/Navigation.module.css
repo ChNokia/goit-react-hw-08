@@ -1,0 +1,24 @@
+.navMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 100%; */
+  gap: 10px;
+}
+
+.navLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  transition: scale 250ms ease-in;
+}
+
+.navLink:hover {
+  scale: 1.1;
+}
+
+.active {
+  color: red;
+}
