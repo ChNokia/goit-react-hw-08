@@ -33,7 +33,7 @@ const RegistrationForm = () => {
       .unwrap()
       .then((response) =>
         toast.success(
-          `Congratulation, you have created an account just now,${response.name}`
+          `Congratulation, you have created an account just now,${response.user.name}`
         )
       )
       .catch(() => toast.error("Invalid data or don't have an account"));
